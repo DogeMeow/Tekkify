@@ -1,0 +1,162 @@
+{
+    "images":
+    {
+        "menu_background":{  
+            "image": "tekkify:textures/menu-background.png",
+            "posX": 0,
+            "posY": 0,
+            "width": 250,
+            "height": 512,
+            "alignment": "top_left"
+        },
+
+        "title":
+        {
+            "image": "tekkify:textures/logo.png",
+            "posX": -260,
+            "posY": 22,
+            "width": 225,
+            "height": 169,
+            "alignment": "top_right"
+        }
+    },
+    
+    "buttons":
+    {
+        "playtekkify":
+        {
+            "text" : "Play Tekkify",
+            "posX" : 16,
+            "posY" : -60,
+            "width" : 98,
+            "height" : 20,
+            "texture": "tekkify:textures/button-cta.png",
+            "normalTextColor": 0,
+            "hoverTextColor": 0,
+            "shadow": false,
+            "alignment": "left_center",
+            "action":
+            {
+                "type": "connectToServer",
+                "ip": "play.tekkify.com"
+            }
+        },
+
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 16,
+            "posY" : -36,
+            "width" : 98,
+            "height" : 20,
+            "texture": "tekkify:textures/button-primary.png",
+            "normalTextColor": 16777215,
+            "hoverTextColor": 0,
+            "shadow": false,
+            "alignment": "left_center",
+            "action":
+            {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 16,
+            "posY" : -12,
+            "width" : 98,
+            "height" : 20,
+            "texture": "tekkify:textures/button-primary.png",
+            "normalTextColor": 16777215,
+            "hoverTextColor": 0,
+            "shadow": false,
+            "alignment": "left_center",
+            "action":
+            {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 16,
+            "posY" : 12,
+            "width" : 98,
+            "height" : 20,
+            "texture": "tekkify:textures/button-primary.png",
+            "normalTextColor": 16777215,
+            "hoverTextColor": 0,
+            "shadow": false,
+            "alignment": "left_center",
+            "action":
+            {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 16,
+            "posY" : 44,
+            "width" : 98,
+            "height" : 20,
+            "texture": "tekkify:textures/button-primary.png",
+            "normalTextColor": 16777215,
+            "hoverTextColor": 0,
+            "shadow": false,
+            "alignment": "left_center",
+            "action":
+            {
+                "type": "quit"
+            }
+        },
+
+        "website":
+        {
+            "text": "Visit Website",
+            "posX": -200,
+            "posY": 192,
+            "width" : 98,
+            "height" : 20,
+            "texture": "tekkify:textures/button-primary.png",
+            "normalTextColor": 16777215,
+            "hoverTextColor": 0,
+            "shadow": false,
+            "alignment": "top_right",
+            "link": "http://tekkify.com",
+            "tooltip": "tekkify.com",
+            "action":
+            {
+                "type": "openLink",
+                "link": "http://tekkify.com"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : 0,
+            "posY" : 0,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "tekkify:textures/background.jpg",
+            "mode" : "fill"
+        }
+    }
+}
