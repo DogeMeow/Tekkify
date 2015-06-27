@@ -1,10 +1,3 @@
-# Tooltips
-<Thaumcraft:FocusTrade>.addTooltip(format.red("Disabled"));
-
-# Removed Equal Trade Focus
-mods.thaumcraft.Research.orphanResearch("FOCUSTRADE");
-mods.thaumcraft.Research.removeResearch("FOCUSTRADE");
-
 # Fixed Req For Portable Hole
 mods.thaumcraft.Research.addPrereq("FOCUSPORTABLEHOLE", "FOCUSFIRE", false);
 

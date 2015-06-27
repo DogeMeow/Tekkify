@@ -2,6 +2,10 @@
 	# Disabled
 	recipes.remove(<TConstruct:Redstone.Landmine:*>); # Landmines
 	recipes.remove(<TConstruct:explosive.slime:*>); # SDX
+
+# Casting Recipes
+	# Disabled
+	#mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:21>);
 	
 # Ore Dictionary
 	<ore:nuggetIron>.remove(<TConstruct:oreBerries:0>);
