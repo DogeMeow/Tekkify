@@ -1,9 +1,3 @@
-# Fixed Req For Portable Hole
-mods.thaumcraft.Research.addPrereq("FOCUSPORTABLEHOLE", "FOCUSFIRE", false);
-
-# Tidied Up
-mods.thaumcraft.Research.moveResearch("FOCUSPORTABLEHOLE", "THAUMATURGY", 4, -3);
-
 # Removed Warp
 mods.thaumcraft.Warp.removeAll();
 mods.thaumcraft.Warp.removeAllResearch();

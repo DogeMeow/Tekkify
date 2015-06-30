@@ -2,6 +2,7 @@
 	# Disabled
 	recipes.remove(<TConstruct:Redstone.Landmine:*>); # Landmines
 	recipes.remove(<TConstruct:explosive.slime:*>); # SDX
+	recipes.remove(<TConstruct:travelGlove>);
 
 # Casting Recipes
 	# Disabled
@@ -18,3 +19,4 @@
 # Tooltips
 	<TConstruct:Redstone.Landmine:*>.addTooltip(format.red("Disabled"));
 	<TConstruct:explosive.slime:*>.addTooltip(format.red("Disabled"));
+	<TConstruct:travelGlove>.addTooltip(format.red("Disabled"));
