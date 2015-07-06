@@ -20,3 +20,8 @@
 	<TConstruct:Redstone.Landmine:*>.addTooltip(format.red("Disabled"));
 	<TConstruct:explosive.slime:*>.addTooltip(format.red("Disabled"));
 	<TConstruct:travelGlove>.addTooltip(format.red("Disabled"));
+
+# Smeltery
+mods.tconstruct.Smeltery.removeMelting(<minecraft:anvil:0>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:anvil:1>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:anvil:2>);
