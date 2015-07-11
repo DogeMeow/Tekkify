@@ -6,7 +6,6 @@
 
 # Casting Recipes
 	# Disabled
-	#mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:21>);
 	
 # Ore Dictionary
 	<ore:nuggetIron>.remove(<TConstruct:oreBerries:0>);
@@ -25,3 +24,4 @@
 mods.tconstruct.Smeltery.removeMelting(<minecraft:anvil:0>);
 mods.tconstruct.Smeltery.removeMelting(<minecraft:anvil:1>);
 mods.tconstruct.Smeltery.removeMelting(<minecraft:anvil:2>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:stone>);
